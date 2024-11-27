@@ -163,82 +163,112 @@ val characterLists: Array<Array<VCharacter>> = arrayOf(
 		VCharacter('\'', arrayOf( //apostrophe
 			arrayOf(false, false,
 				false, false,
-				false, false))),
+				true, false)
+		)),
 		VCharacter('*', arrayOf(
 			arrayOf(false, false,
-				false, false,
-				false, false))),
+				false, true,
+				false, false),
+			arrayOf(false, false,
+				false, true,
+				true, false)
+		)),
 		VCharacter('[', arrayOf(
-			arrayOf(false, false,
+			arrayOf(false, true,
 				false, false,
-				false, false))),
+				false, true),
+			arrayOf(true, false,
+				true, false,
+				false, true)
+		)),
 		VCharacter(']', arrayOf(
-			arrayOf(false, false,
+			arrayOf(false, true,
 				false, false,
-				false, false))),
+				false, true),
+			arrayOf(false, true,
+				false, true,
+				true, false)
+		)),
 		VCharacter(':', arrayOf(
 			arrayOf(false, false,
-				false, false,
-				false, false))),
+				true, true,
+				false, false)
+		)),
 		VCharacter(',', arrayOf(
 			arrayOf(false, false,
-				false, false,
-				false, false))),
+				true, false,
+				false, false)
+		)),
 		VCharacter('-', arrayOf( // en dash
 			arrayOf(false, false,
 				false, false,
-				false, false))),
+				false, true),
+			arrayOf(false, false,
+				false, false,
+				true, true)
+		)),
 		VCharacter('!', arrayOf(
 			arrayOf(false, false,
-				false, false,
-				false, false))),
+				true, true,
+				true, false)
+		)),
 		VCharacter('#', arrayOf(
-			arrayOf(false, false,
-				false, false,
-				false, false))),
+			arrayOf(false, true,
+				false, true,
+				true, true)
+		)),
 		VCharacter('(', arrayOf(
 			arrayOf(false, false,
-				false, false,
-				false, false))),
+				false, true,
+				false, false),
+			arrayOf(true, false,
+				true, false,
+				false, true)
+		)),
 		VCharacter(')', arrayOf(
 			arrayOf(false, false,
-				false, false,
-				false, false))),
+				false, true,
+				false, false),
+			arrayOf(false, true,
+				false, true,
+				true, false)
+		)),
 		VCharacter('.', arrayOf( //period
 			arrayOf(false, false,
-				false, false,
-				false, false))),
+				true, true,
+				false, true)
+		)),
 		VCharacter('?', arrayOf(
 			arrayOf(false, false,
-				false, false,
-				false, false))),
+				true, false,
+				true, true)
+		)),
 		VCharacter(';', arrayOf(
 			arrayOf(false, false,
-				false, false,
-				false, false))),
+				true, false,
+				true, false)
+		)),
 		VCharacter('/', arrayOf(
-			arrayOf(false, false,
+			arrayOf(false, true,
+				false, true,
+				false, true),
+			arrayOf(false, true,
 				false, false,
-				false, false)))
+				true, false)
+		))
 	), arrayOf(
 	
 	//Composition Signs
 		VCharacter('A', arrayOf( // Capital letter
 			arrayOf(false, false,
 				false, false,
-				false, false))),
+				false, true))),
 		VCharacter('B', arrayOf(
 			arrayOf(false, false,
 				false, false,
-				false, false))),
-		VCharacter('C', arrayOf(
+				false, true),
 			arrayOf(false, false,
 				false, false,
-				false, false))),
-		VCharacter('D', arrayOf(
-			arrayOf(false, false,
-				false, false,
-				false, false))),
-	
+				false, true)))
 	)
 )
