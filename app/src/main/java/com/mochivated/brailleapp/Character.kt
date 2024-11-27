@@ -1,3 +1,3 @@
 package com.mochivated.brailleapp
 
-class VCharacter(val character: Char, val symbol: Array<Boolean>)
+class VCharacter(val character: Char, val symbol: Array<Array<Boolean>>)
